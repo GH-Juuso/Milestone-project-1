@@ -31,4 +31,31 @@ The database structure was reviewed to reduce data redundancy and improve data i
 Particular attention was given to:
 * Separation of equipment definitions and inventory items.
 * Proper use of primary keys and foreign keys.
-* Consistent storage of customer, employee, and station information. 
+* Consistent storage of customer, employee, and station information.
+
+## Additional Elements
+
+Additional tables and attributes were discussed and evaluated to improve the model while keeping the project scope manageable.
+
+## Current Status
+
+| Task | Status |
+|--------|----------|
+| Create 1st Version of Operational Database | In Progress |
+| Documentation | In Progress |
+| Final Model Review | Planned |
+| Check Normalization Rules | Planned |
+| Additional Tables / Elements | Planned |
+
+## Next Steps
+
+1. Complete the operational database design.
+2. Perform final model review.
+3. Verify normalization rules.
+4. Implement SQL tables.
+5. Generate sample data.
+6. Begin data warehouse design.
+
+## Conclusion
+
+The sprint successfully established the foundation of the operational rental database. A preliminary database model has been created and reviewed, providing a solid basis for the upcoming SQL implementation and data warehouse development.
