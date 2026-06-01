@@ -1,6 +1,10 @@
 -- Create an empty database
 CREATE DATABASE RentalDatabase
 
+GO
+USE RentalDatabse
+GO
+	
 -- Create table for customer information
 CREATE TABLE Customer (
 	customer_id int PRIMARY KEY,
