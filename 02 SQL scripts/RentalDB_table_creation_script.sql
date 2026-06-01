@@ -2,7 +2,7 @@
 CREATE DATABASE RentalDatabase
 
 GO
-USE RentalDatabse
+USE RentalDatabase
 GO
 	
 -- Create table for customer information
