@@ -34,6 +34,7 @@ CREATE TABLE Employee (
 -- Create table for rental transactions
 CREATE TABLE Rental_transaction (
 	transaction_id int PRIMARY KEY,
+	employee_id int NOT NULL,
 	rental_station_id int NOT NULL,
 	return_station_id int NOT NULL,
 	customer_id int NOT NULL,
@@ -86,6 +87,9 @@ ALTER TABLE Rental_transaction
 ADD CONSTRAINT FK_customer_id FOREIGN KEY(customer_id)
 REFERENCES Customer(customer_id)
 
+ALTER TABLE Rental_transactio
+ADD CONSTRAINT FK_employee_id FOREIGN KEY(employee_id)
+REFERENCES Employee(employee_id)
 
 --Inventory table connections
 ALTER TABLE Inventory
