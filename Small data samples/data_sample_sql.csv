@@ -1,0 +1,85 @@
+﻿step,table_name,sql_statement
+1,Equipment,"INSERT INTO Equipment (equipment_id, name, category, subcategory, type, rental_price, quantity, procurement_cost) VALUES
+(1,'Mountain Bike','Bike','Adult','Bike',200,15,800),
+(2,'City Bike','Bike','Adult','Bike',150,20,600),
+(3,'Kids Bike','Bike','Children','Bike',100,10,350),
+(4,'Electric Scooter','Scooter','Electric','Scooter',180,12,700),
+(5,'Helmet','Safety Equipment','Head Protection','Safety',30,50,40),
+(6,'Knee Pads','Safety Equipment','Body Protection','Safety',20,40,20),
+(7,'Ice Skates','Winter Sport','Adult','Skates',80,25,120),
+(8,'Roller Skates','Outdoor Sport','Adult','Skates',60,15,90),
+(9,'Snowboard','Winter Sport','Adult','Board',150,10,350),
+(10,'Kayak','Water Sport','Single Person','Boat',250,5,900);"
+2,Inventory,"INSERT INTO Inventory (inventory_id, condition, status, equipment_id) VALUES
+(1,'Good','Available',1),
+(2,'Good','Rented',2),
+(3,'Excellent','Available',3),
+(4,'Good','Available',4),
+(5,'Excellent','Available',5),
+(6,'Good','Available',6),
+(7,'Fair','Maintenance',7),
+(8,'Good','Available',8),
+(9,'Excellent','Rented',9),
+(10,'Good','Available',10);"
+3,Customer,"INSERT INTO Customer (customer_id, firstname, lastname, address, email, phone_number) VALUES
+(1,'Anna','Karlsson','Sveavägen 12, Stockholm','anna.karlsson@email.com','0701111111'),
+(2,'Erik','Andersson','Avenyn 5, Göteborg','erik.andersson@email.com','0702222222'),
+(3,'Sara','Nilsson','Stortorget 3, Malmö','sara.nilsson@email.com','0703333333'),
+(4,'Johan','Larsson','Kungsgatan 8, Uppsala','johan.larsson@email.com','0704444444'),
+(5,'Emma','Svensson','Drottninggatan 2, Örebro','emma.svensson@email.com','0705555555'),
+(6,'David','Berg','Centralvägen 9, Västerås','david.berg@email.com','0706666666'),
+(7,'Maria','Lind','Torggatan 7, Linköping','maria.lind@email.com','0707777777'),
+(8,'Oskar','Holm','Universitetsgatan 4, Lund','oskar.holm@email.com','0708888888'),
+(9,'Lisa','Persson','Hamngatan 6, Helsingborg','lisa.persson@email.com','0709999999'),
+(10,'Simon','Ek','Nygatan 12, Gävle','simon.ek@email.com','0701010101');"
+4,Rental_station,"INSERT INTO Rental_station (station_id, name, address, city, country, postal_code, staffed, employee_id) VALUES
+(1,'Stockholm Central','Sveavägen 1','Stockholm','Sweden','11111',1,NULL),
+(2,'Göteborg City','Avenyn 5','Göteborg','Sweden','22222',1,NULL),
+(3,'Malmö Center','Stortorget 3','Malmö','Sweden','33333',1,NULL),
+(4,'Uppsala Hub','Kungsgatan 8','Uppsala','Sweden','44444',1,NULL),
+(5,'Örebro Rental','Drottninggatan 2','Örebro','Sweden','55555',1,NULL),
+(6,'Västerås Rental','Centralvägen 9','Västerås','Sweden','66666',1,NULL),
+(7,'Linköping Rental','Torggatan 7','Linköping','Sweden','77777',1,NULL),
+(8,'Lund Rental','Universitetsgatan 4','Lund','Sweden','88888',1,NULL),
+(9,'Helsingborg Rental','Hamngatan 6','Helsingborg','Sweden','99999',1,NULL),
+(10,'Gävle Rental','Nygatan 12','Gävle','Sweden','10101',1,NULL);"
+5,Employee,"INSERT INTO Employee (employee_id, firstname, lastname, hiring_date, salary, station_id) VALUES
+(1,'Peter','Johansson','2021-03-01',32000,1),
+(2,'Linda','Bergman','2020-05-15',35000,2),
+(3,'Mikael','Olsson','2019-08-20',36000,3),
+(4,'Sofia','Lundgren','2022-01-10',31000,4),
+(5,'Andreas','Ekström','2023-02-01',30000,5),
+(6,'Julia','Nordin','2021-09-15',34000,6),
+(7,'Marcus','Hall','2020-11-01',33000,7),
+(8,'Elin','Westin','2018-06-12',37000,8),
+(9,'Fredrik','Palm','2022-04-04',31500,9),
+(10,'Amanda','Nyberg','2024-01-15',29000,10);"
+6,Rental_station,UPDATE Rental_station SET employee_id = station_id WHERE station_id BETWEEN 1 AND 10;
+7,Rental_transaction,"INSERT INTO Rental_transaction (transaction_id, startdate, enddate, rental_amount, customer_id, rental_station_id, return_station_id) VALUES
+(1,'2026-01-01','2026-01-03',400,1,1,1),
+(2,'2026-01-02','2026-01-04',300,2,2,2),
+(3,'2026-01-03','2026-01-05',200,3,3,4),
+(4,'2026-01-04','2026-01-06',360,4,4,4),
+(5,'2026-01-05','2026-01-07',60,5,5,5),
+(6,'2026-01-06','2026-01-08',40,6,6,6),
+(7,'2026-01-07','2026-01-09',160,7,7,8),
+(8,'2026-01-08','2026-01-10',120,8,8,8),
+(9,'2026-01-09','2026-01-11',300,9,9,10),
+(10,'2026-01-10','2026-01-12',500,10,10,1);"
+8,RentalLines,"INSERT INTO RentalLines (rentalline_id, transaction_id, inventory_id, line_price, vat) VALUES
+(1,1,1,200,25),
+(2,2,2,150,25),
+(3,3,3,100,25),
+(4,4,4,180,25),
+(5,5,5,30,25),
+(6,6,6,20,25),
+(7,7,7,80,25),
+(8,8,8,60,25),
+(9,9,9,150,25),
+(10,10,10,250,25);"
+9,Documentation,"Purpose: The database handles rental of bikes, electric scooters, safety equipment, skates, boards, and water sport equipment."
+10,Documentation,Main relationship: Equipment -> Inventory -> RentalLines -> Rental_transaction -> Customer.
+11,Documentation,Station relationship: Rental_transaction uses rental_station_id and return_station_id to show pickup and return stations.
+12,Documentation,Employee relationship: Employees work at Rental_station through station_id. Rental_station.employee_id can represent responsible employee/manager.
+13,Documentation,"Business rule: One customer can have many rental transactions, and one rental transaction can contain many rental lines."
+14,Documentation,"Business rule: Inventory status should show Available, Rented, or Maintenance."
