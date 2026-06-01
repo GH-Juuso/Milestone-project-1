@@ -1,0 +1,47 @@
+Generated Rental Database Ingestion Package
+
+Row counts:
+- Employee.csv: 151 rows (150 employees + dummy employee_id 0)
+- Customer.csv: 10,000 rows
+- Equipment.csv: 80 rows
+- Rental_station.csv: 200 rows
+- Inventory.csv: 15,000 rows
+- Rental_transaction.csv: 40,000 rows
+- RentalLine.csv: 100,000 rows
+
+Geographic coverage:
+- North America: Canada, USA, Mexico
+- Europe: France, UK, Spain, Germany, Netherlands, Italy, Portugal, Sweden, Norway
+- Asia-Pacific: Japan, Singapore, India, Australia
+- Middle East & Africa: UAE, South Africa
+
+Data diversity:
+- 20+ cities across 15+ countries
+- Mix of staffed and unstaffed stations (~25% unstaffed)
+- Rental durations ranging from same-day rentals to multi-day rentals
+- Rental amounts ranging from low-cost safety equipment rentals to premium vehicle rentals
+- Equipment categories include E-Bikes, E-Scooters, Safety Equipment, and Accessories
+- Inventory conditions include Excellent, Good, Fair, and Maintenance Required
+- Inventory statuses include Available, Rented, and Maintenance
+- Employees have varied hiring dates and salaries
+- Customers have unique contact information
+
+Data model:
+- Equipment represents product models/types
+- Inventory represents physical rentable assets
+- Transactions represent rental orders
+- RentalLine represents rented items within a transaction
+
+Referential integrity:
+- Employee → Rental_station
+- Equipment → Inventory
+- Customer → Rental_transaction
+- Rental_station → Rental_transaction (pickup & return stations)
+- Rental_transaction → RentalLine
+- Inventory → RentalLine
+
+Notes:
+- Equipment catalog intentionally limited to fewer than 100 records.
+- Dummy employee (employee_id = 0) is assigned to all unstaffed stations.
+- All foreign key relationships are valid and ingestion-ready.
+- Dataset is designed for SQL analytics, reporting, dashboarding, ETL, and data warehousing exercises.
