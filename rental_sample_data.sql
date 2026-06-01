@@ -1,87 +1,85 @@
---- Inventory
+USE RentalDatabase;
+
+INSERT INTO Customer VALUES
+(1,'Emma','Smith','emma.smith@example.com',111111111),
+(2,'Liam','Johnson','liam.j@example.com',222222222),
+(3,'Noah','Brown','noah.b@example.com',333333333),
+(4,'Olivia','Davis','olivia.d@example.com',444444444),
+(5,'Ava','Wilson','ava.w@example.com',555555555),
+(6,'Sophia','Taylor','sophia.t@example.com',666666666),
+(7,'Mason','Anderson','mason.a@example.com',777777777),
+(8,'Isabella','Thomas','isabella.t@example.com',888888888),
+(9,'Lucas','Martin','lucas.m@example.com',999999999),
+(10,'Mia','Garcia','mia.g@example.com',123456789);
+
+INSERT INTO Equipment VALUES
+(1,'City E-Bike','Vehicle','Bike','Electric Bike',18.00,20,850.00),
+(2,'Mountain E-Bike','Vehicle','Bike','Electric Bike',25.00,12,1200.00),
+(3,'Cargo E-Bike','Vehicle','Bike','Electric Bike',30.00,8,1800.00),
+(4,'Standard E-Scooter','Vehicle','Scooter','Electric Scooter',15.00,25,500.00),
+(5,'Long Range E-Scooter','Vehicle','Scooter','Electric Scooter',22.00,15,750.00),
+(6,'Kids Helmet','Safety','Helmet','Protective Gear',5.00,40,25.00),
+(7,'Adult Helmet','Safety','Helmet','Protective Gear',6.00,60,35.00),
+(8,'Reflective Vest','Safety','Vest','Protective Gear',4.00,50,15.00),
+(9,'Knee Pads','Safety','Pads','Protective Gear',4.50,35,20.00),
+(10,'Phone Holder','Accessory','Mount','Bike Accessory',3.00,30,12.00);
+
+INSERT INTO Employee VALUES
+(0,'Dummy','Employee','2000-01-01',0.00),
+(1,'John','Miller','2021-03-15',32000.00),
+(2,'Sarah','Clark','2020-06-20',35000.00),
+(3,'David','Lopez','2022-01-10',31000.00),
+(4,'Anna','Lee','2019-09-05',38000.00),
+(5,'James','Walker','2023-02-18',30000.00),
+(6,'Laura','Hall','2021-11-25',34000.00),
+(7,'Daniel','Young','2020-04-30',36000.00),
+(8,'Nina','King','2022-07-12',31500.00),
+(9,'Oscar','Scott','2023-05-01',29500.00);
+
+INSERT INTO Rental_station VALUES
+(1,1,'10 Main St','Paris','France',75001,1),
+(2,2,'22 Market Rd','London','UK',10001,1),
+(3,3,'5 Ocean Ave','Barcelona','Spain',8001,1),
+(4,0,'88 Central Sq','Berlin','Germany',10115,0),
+(5,4,'14 King St','Toronto','Canada',12345,1),
+(6,5,'7 Harbour Rd','Sydney','Australia',2000,1),
+(7,0,'99 Beach Blvd','Dubai','UAE',54321,0),
+(8,6,'31 River St','Amsterdam','Netherlands',1000,1),
+(9,7,'45 Lake Ave','Tokyo','Japan',1600022,1),
+(10,0,'12 Hill Road','Cape Town','South Africa',8001,0);
+
 INSERT INTO Inventory VALUES
 (1,'Good','Available',1),
-(2,'Good','Rented',2),
-(3,'Excellent','Available',3),
+(2,'Excellent','Available',2),
+(3,'Good','Rented',3),
 (4,'Fair','Maintenance',4),
-(5,'Good','Available',5),
-(6,'Excellent','Rented',6),
-(7,'Good','Available',7),
-(8,'Good','Available',8),
+(5,'Excellent','Available',5),
+(6,'Good','Available',6),
+(7,'Good','Rented',7),
+(8,'Excellent','Available',8),
 (9,'Fair','Available',9),
-(10,'Excellent','Rented',10);
+(10,'Good','Maintenance',10);
 
-
-
---- Customer
-INSERT INTO Customer VALUES
-(1,'Anna','Karlsson','Stockholm','anna@gmail.com','0701111111'),
-(2,'Erik','Andersson','Göteborg','erik@gmail.com','0702222222'),
-(3,'Sara','Nilsson','Malmö','sara@gmail.com','0703333333'),
-(4,'Johan','Larsson','Uppsala','johan@gmail.com','0704444444'),
-(5,'Emma','Svensson','Västerås','emma@gmail.com','0705555555'),
-(6,'David','Berg','Örebro','david@gmail.com','0706666666'),
-(7,'Maria','Lind','Linköping','maria@gmail.com','0707777777'),
-(8,'Oskar','Holm','Lund','oskar@gmail.com','0708888888'),
-(9,'Lisa','Persson','Helsingborg','lisa@gmail.com','0709999999'),
-(10,'Simon','Ek','Gävle','simon@gmail.com','0701010101');
-
-
-
---- Employee
-INSERT INTO Employee VALUES
-(1,'Peter','Johansson','2021-03-01',32000,1),
-(2,'Linda','Bergman','2020-05-15',35000,2),
-(3,'Mikael','Olsson','2019-08-20',36000,3),
-(4,'Sofia','Lundgren','2022-01-10',31000,4),
-(5,'Andreas','Ekström','2023-02-01',30000,5),
-(6,'Julia','Nordin','2021-09-15',34000,6),
-(7,'Marcus','Hall','2020-11-01',33000,7),
-(8,'Elin','Westin','2018-06-12',37000,8),
-(9,'Fredrik','Palm','2022-04-04',31500,9),
-(10,'Amanda','Nyberg','2024-01-15',29000,10);
-
-
-
---- Rental_station
-INSERT INTO Rental_station VALUES
-(1,'Stockholm Central','Sveavägen 1','Stockholm','Sweden','11111',1,1),
-(2,'Göteborg City','Avenyn 5','Göteborg','Sweden','22222',1,2),
-(3,'Malmö Center','Stortorget 3','Malmö','Sweden','33333',1,3),
-(4,'Uppsala Hub','Kungsgatan 8','Uppsala','Sweden','44444',1,4),
-(5,'Örebro Rental','Drottninggatan 2','Örebro','Sweden','55555',1,5),
-(6,'Västerås Rental','Centralvägen 9','Västerås','Sweden','66666',1,6),
-(7,'Linköping Rental','Torggatan 7','Linköping','Sweden','77777',1,7),
-(8,'Lund Rental','Universitetsgatan 4','Lund','Sweden','88888',1,8),
-(9,'Gävle Rental','Nygatan 12','Gävle','Sweden','99999',1,9),
-(10,'Helsingborg Rental','Hamngatan 6','Helsingborg','Sweden','10101',1,10);
-
-
-
---- Rental_transaction
 INSERT INTO Rental_transaction VALUES
-(1,'2026-01-01','2026-01-05',240,1,1,2),
-(2,'2026-01-03','2026-01-07',280,2,2,2),
-(3,'2026-01-04','2026-01-08',180,3,3,4),
-(4,'2026-01-06','2026-01-10',100,4,4,4),
-(5,'2026-01-08','2026-01-12',320,5,5,6),
-(6,'2026-01-10','2026-01-14',440,6,6,7),
-(7,'2026-01-12','2026-01-16',120,7,7,8),
-(8,'2026-01-14','2026-01-18',160,8,8,9),
-(9,'2026-01-16','2026-01-20',80,9,9,10),
-(10,'2026-01-18','2026-01-22',300,10,10,1);
+(1,1,2,1,'2026-01-05','2026-01-05',24.00),
+(2,2,2,2,'2026-01-06','2026-01-06',18.00),
+(3,3,4,3,'2026-01-07','2026-01-08',45.00),
+(4,4,1,4,'2026-01-08','2026-01-08',15.00),
+(5,5,6,5,'2026-01-09','2026-01-10',60.00),
+(6,6,6,6,'2026-01-10','2026-01-10',10.00),
+(7,7,8,7,'2026-01-11','2026-01-11',28.00),
+(8,8,9,8,'2026-01-12','2026-01-12',22.00),
+(9,9,10,9,'2026-01-13','2026-01-14',50.00),
+(10,10,1,10,'2026-01-14','2026-01-14',12.00);
 
-
-
---- Rental_lines
-INSERT INTO RentalLines VALUES
-(1,1,1,120,25),
-(2,2,2,140,25),
-(3,3,3,90,25),
-(4,4,4,50,25),
-(5,5,5,80,25),
-(6,6,6,110,25),
-(7,7,7,30,25),
-(8,8,8,40,25),
-(9,9,9,20,25),
-(10,10,10,150,25);
+INSERT INTO RentalLine VALUES
+(1,1,1,18.00,3.60),
+(2,2,2,25.00,5.00),
+(3,3,3,30.00,6.00),
+(4,4,4,15.00,3.00),
+(5,5,5,22.00,4.40),
+(6,6,6,5.00,1.00),
+(7,7,7,6.00,1.20),
+(8,8,8,4.00,0.80),
+(9,9,9,4.50,0.90),
+(10,10,10,3.00,0.60);
