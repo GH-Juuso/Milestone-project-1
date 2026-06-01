@@ -50,7 +50,7 @@ CREATE TABLE Rental_station (
 	city varchar(50) NOT NULL,
 	country varchar(50) NOT NULL,
 	postal_code int NOT NULL,
-	staffed bit NOT NULL
+	staffed int NOT NULL
 	)
 
 
