@@ -1,201 +1,201 @@
 station_id,employee_id,address,city,country,postal_code,staffed
-1,0,719 Main St,Singapore,Singapore,19024,0
-2,0,139 Station Ave,Berlin,Germany,10127,0
-3,5,139 Central Sq,Oslo,Norway,210,1
-4,0,956 River St,Paris,France,75072,0
-5,31,136 River St,Barcelona,Spain,8059,1
-6,125,957 Station Ave,Cape Town,South Africa,8010,1
-7,0,447 Harbour Rd,Bengaluru,India,560066,0
-8,76,881 Harbour Rd,San Francisco,USA,94126,1
-9,0,568 Main St,Bengaluru,India,560005,0
-10,29,674 Harbour Rd,Singapore,Singapore,18976,1
-11,44,256 Station Ave,Oslo,Norway,170,1
-12,13,78 Station Ave,Berlin,Germany,10145,1
-13,56,340 Main St,Barcelona,Spain,8053,1
-14,48,398 Main St,Bengaluru,India,560053,1
-15,89,346 Market Rd,Stockholm,Sweden,11161,1
-16,128,758 Central Sq,Sydney,Australia,2009,1
-17,0,373 Central Sq,Paris,France,75063,0
-18,120,598 River St,Barcelona,Spain,8077,1
-19,135,937 Central Sq,Bengaluru,India,560055,1
-20,130,584 River St,Rome,Italy,128,1
-21,0,109 River St,London,UK,10081,0
-22,90,962 Station Ave,New York,USA,10052,1
-23,130,304 Market Rd,Dubai,UAE,54344,1
-24,23,467 Market Rd,Sao Paulo,Brazil,1049,1
-25,0,670 Central Sq,Rome,Italy,151,0
-26,0,392 Main St,San Francisco,USA,94162,0
-27,22,302 Station Ave,Paris,France,75036,1
-28,2,839 Harbour Rd,Berlin,Germany,10180,1
-29,67,42 Station Ave,Lisbon,Portugal,1165,1
-30,27,898 Main St,Sao Paulo,Brazil,1000,1
-31,16,689 Central Sq,Lisbon,Portugal,1197,1
-32,138,145 Main St,Berlin,Germany,10175,1
-33,0,514 Station Ave,Lisbon,Portugal,1114,0
-34,42,144 Market Rd,Berlin,Germany,10133,1
-35,0,180 River St,Stockholm,Sweden,11139,0
-36,0,285 Harbour Rd,Cape Town,South Africa,8042,0
-37,92,621 River St,Toronto,Canada,12421,1
-38,0,280 Main St,Cape Town,South Africa,8005,0
-39,30,234 Central Sq,Stockholm,Sweden,11133,1
-40,89,684 Main St,Berlin,Germany,10214,1
-41,0,991 Harbour Rd,New York,USA,10019,0
-42,136,607 Market Rd,Sydney,Australia,2000,1
-43,93,980 Harbour Rd,Lisbon,Portugal,1171,1
-44,119,537 Market Rd,London,UK,10004,1
-45,5,872 Main St,Toronto,Canada,12348,1
-46,0,295 Station Ave,Cape Town,South Africa,8043,0
-47,86,893 Market Rd,Amsterdam,Netherlands,1097,1
-48,25,953 Station Ave,Mexico City,Mexico,6033,1
-49,105,820 Harbour Rd,Cape Town,South Africa,8037,1
-50,45,88 Station Ave,Toronto,Canada,12410,1
-51,58,24 Harbour Rd,Stockholm,Sweden,11148,1
-52,144,658 Station Ave,San Francisco,USA,94105,1
-53,150,792 Main St,Amsterdam,Netherlands,1085,1
-54,0,844 Station Ave,Toronto,Canada,12424,0
-55,62,842 Station Ave,Sao Paulo,Brazil,1051,1
-56,82,834 Central Sq,Bengaluru,India,560071,1
-57,127,804 Central Sq,New York,USA,10076,1
-58,6,558 Central Sq,Oslo,Norway,174,1
-59,1,855 Harbour Rd,Oslo,Norway,228,1
-60,13,707 Central Sq,Lisbon,Portugal,1145,1
-61,140,440 Main St,Toronto,Canada,12393,1
-62,100,340 Harbour Rd,Barcelona,Spain,8059,1
-63,0,775 Central Sq,Amsterdam,Netherlands,1047,0
-64,22,409 Central Sq,Sao Paulo,Brazil,1018,1
-65,58,429 Station Ave,Sao Paulo,Brazil,1071,1
-66,142,60 Market Rd,Barcelona,Spain,8046,1
-67,132,288 Market Rd,Amsterdam,Netherlands,1061,1
-68,42,656 River St,Rome,Italy,150,1
-69,118,793 Harbour Rd,Cape Town,South Africa,8024,1
-70,3,545 Central Sq,New York,USA,10087,1
-71,0,145 Central Sq,Sydney,Australia,2022,0
-72,2,786 Main St,Dubai,UAE,54356,1
-73,33,316 Main St,Barcelona,Spain,8093,1
-74,102,615 Main St,New York,USA,10042,1
-75,118,289 River St,Stockholm,Sweden,11123,1
-76,0,511 River St,Rome,Italy,148,0
-77,0,169 Central Sq,Paris,France,75058,0
-78,0,782 Market Rd,London,UK,10029,0
-79,87,692 River St,Toronto,Canada,12382,1
-80,0,228 Main St,San Francisco,USA,94143,0
-81,36,538 Harbour Rd,Stockholm,Sweden,11148,1
-82,36,620 Harbour Rd,London,UK,10051,1
-83,24,454 Market Rd,Sydney,Australia,2012,1
-84,41,615 Market Rd,Singapore,Singapore,18977,1
-85,105,476 River St,Paris,France,75099,1
-86,92,701 Market Rd,Sydney,Australia,2075,1
-87,98,619 Market Rd,Sydney,Australia,2060,1
-88,33,840 Central Sq,Paris,France,75097,1
-89,32,860 Market Rd,London,UK,10076,1
-90,78,545 Central Sq,Sydney,Australia,2000,1
-91,0,429 Main St,Sydney,Australia,2085,0
-92,0,591 Market Rd,Oslo,Norway,233,0
-93,0,634 Market Rd,Amsterdam,Netherlands,1062,0
-94,16,3 Main St,Bengaluru,India,560083,1
-95,0,596 Station Ave,Paris,France,75044,0
-96,0,150 Market Rd,Lisbon,Portugal,1143,0
-97,72,717 Harbour Rd,Rome,Italy,108,1
-98,91,994 River St,Mexico City,Mexico,6039,1
-99,149,637 Market Rd,Paris,France,75030,1
-100,89,745 Market Rd,Paris,France,75018,1
-101,0,395 Station Ave,Amsterdam,Netherlands,1080,0
-102,137,787 Main St,Sao Paulo,Brazil,1036,1
-103,113,752 Central Sq,New York,USA,10032,1
-104,0,758 Main St,Sao Paulo,Brazil,1078,0
-105,91,201 Station Ave,Cape Town,South Africa,8079,1
-106,116,998 Harbour Rd,Berlin,Germany,10169,1
-107,88,60 Central Sq,Lisbon,Portugal,1122,1
-108,108,69 Market Rd,Singapore,Singapore,18964,1
-109,0,89 Station Ave,Oslo,Norway,233,0
-110,15,417 Station Ave,New York,USA,10010,1
-111,0,136 Market Rd,Bengaluru,India,560009,0
-112,141,697 Harbour Rd,Berlin,Germany,10118,1
-113,123,648 Harbour Rd,Rome,Italy,126,1
-114,0,155 Market Rd,New York,USA,10088,0
-115,0,365 River St,Singapore,Singapore,18980,0
-116,97,839 Station Ave,Barcelona,Spain,8067,1
-117,95,425 Market Rd,Cape Town,South Africa,8064,1
-118,0,867 Market Rd,Barcelona,Spain,8078,0
-119,0,42 Main St,Cape Town,South Africa,8096,0
-120,87,792 Market Rd,Amsterdam,Netherlands,1072,1
-121,39,895 Market Rd,Stockholm,Sweden,11209,1
-122,0,266 Harbour Rd,Barcelona,Spain,8045,0
-123,129,872 Harbour Rd,Bengaluru,India,560049,1
-124,0,995 Harbour Rd,Bengaluru,India,560097,0
-125,27,503 Station Ave,Stockholm,Sweden,11190,1
-126,128,423 Central Sq,Dubai,UAE,54393,1
-127,88,918 Market Rd,Barcelona,Spain,8068,1
-128,0,101 Central Sq,Toronto,Canada,12430,0
-129,91,168 Station Ave,Paris,France,75055,1
-130,111,456 Market Rd,Rome,Italy,147,1
-131,125,188 Central Sq,Barcelona,Spain,8041,1
-132,0,828 Market Rd,San Francisco,USA,94164,0
-133,81,953 Harbour Rd,San Francisco,USA,94180,1
-134,67,542 Harbour Rd,Singapore,Singapore,19026,1
-135,41,169 Central Sq,Cape Town,South Africa,8074,1
-136,31,23 Central Sq,Cape Town,South Africa,8053,1
-137,106,593 Market Rd,Toronto,Canada,12417,1
-138,137,952 Central Sq,Lisbon,Portugal,1114,1
-139,14,888 Harbour Rd,Toronto,Canada,12443,1
-140,107,729 Harbour Rd,Toronto,Canada,12367,1
-141,82,720 Main St,Bengaluru,India,560079,1
-142,56,264 Station Ave,Sao Paulo,Brazil,1034,1
-143,0,590 Main St,Toronto,Canada,12383,0
-144,96,923 Main St,Lisbon,Portugal,1123,1
-145,75,915 Harbour Rd,Toronto,Canada,12404,1
-146,2,294 Central Sq,Stockholm,Sweden,11183,1
-147,36,383 Main St,Oslo,Norway,217,1
-148,14,470 Main St,Cape Town,South Africa,8027,1
-149,136,138 Main St,Amsterdam,Netherlands,1037,1
-150,37,793 Market Rd,Sao Paulo,Brazil,1024,1
-151,40,711 Main St,Sao Paulo,Brazil,1072,1
-152,102,500 Harbour Rd,Tokyo,Japan,1600120,1
-153,0,202 Harbour Rd,Sao Paulo,Brazil,1080,0
-154,134,437 Market Rd,Amsterdam,Netherlands,1000,1
-155,0,142 Market Rd,Berlin,Germany,10118,0
-156,133,300 River St,London,UK,10035,1
-157,65,792 River St,Toronto,Canada,12371,1
-158,55,434 Harbour Rd,Dubai,UAE,54407,1
-159,131,171 Station Ave,Oslo,Norway,220,1
-160,22,715 Market Rd,Bengaluru,India,560049,1
-161,65,622 Central Sq,Paris,France,75056,1
-162,0,576 Central Sq,Bengaluru,India,560054,0
-163,14,117 Market Rd,Tokyo,Japan,1600040,1
-164,24,930 River St,Tokyo,Japan,1600049,1
-165,0,669 Main St,San Francisco,USA,94111,0
-166,75,401 Main St,Berlin,Germany,10175,1
-167,136,733 Station Ave,San Francisco,USA,94192,1
-168,13,222 River St,London,UK,10094,1
-169,10,293 Central Sq,Mexico City,Mexico,6081,1
-170,0,63 Central Sq,Barcelona,Spain,8031,0
-171,99,916 River St,Barcelona,Spain,8044,1
-172,85,196 River St,Barcelona,Spain,8082,1
-173,56,489 Central Sq,Berlin,Germany,10173,1
-174,13,202 Main St,New York,USA,10080,1
-175,0,413 River St,Paris,France,75041,0
-176,29,499 Harbour Rd,Rome,Italy,170,1
-177,0,986 River St,Tokyo,Japan,1600026,0
-178,27,415 River St,Toronto,Canada,12412,1
-179,53,496 Station Ave,Stockholm,Sweden,11133,1
-180,0,375 River St,Lisbon,Portugal,1149,0
-181,133,433 Main St,Lisbon,Portugal,1110,1
-182,99,450 Central Sq,Oslo,Norway,225,1
-183,0,204 Market Rd,Mexico City,Mexico,6052,0
-184,11,737 Central Sq,Barcelona,Spain,8004,1
-185,138,213 Central Sq,New York,USA,10025,1
-186,139,69 River St,Tokyo,Japan,1600066,1
-187,39,559 Central Sq,Lisbon,Portugal,1131,1
-188,64,593 Station Ave,San Francisco,USA,94177,1
-189,0,164 Harbour Rd,Mexico City,Mexico,6051,0
-190,0,928 Station Ave,Toronto,Canada,12406,0
-191,18,698 Central Sq,New York,USA,10070,1
-192,110,562 Harbour Rd,Tokyo,Japan,1600099,1
-193,0,896 Market Rd,Dubai,UAE,54321,0
-194,88,210 Market Rd,Toronto,Canada,12404,1
-195,99,441 River St,Sydney,Australia,2071,1
-196,18,654 Central Sq,Amsterdam,Netherlands,1094,1
-197,0,129 River St,London,UK,10048,0
-198,62,5 River St,Cape Town,South Africa,8060,1
-199,2,549 River St,Dubai,UAE,54381,1
-200,3,655 Harbour Rd,Toronto,Canada,12442,1
+1,0,719 Main St,Singapore,Singapore,19024,False
+2,0,139 Station Ave,Berlin,Germany,10127,False
+3,5,139 Central Sq,Oslo,Norway,210,True
+4,0,956 River St,Paris,France,75072,False
+5,31,136 River St,Barcelona,Spain,8059,True
+6,125,957 Station Ave,Cape Town,South Africa,8010,True
+7,0,447 Harbour Rd,Bengaluru,India,560066,False
+8,76,881 Harbour Rd,San Francisco,USA,94126,True
+9,0,568 Main St,Bengaluru,India,560005,False
+10,29,674 Harbour Rd,Singapore,Singapore,18976,True
+11,44,256 Station Ave,Oslo,Norway,170,True
+12,13,78 Station Ave,Berlin,Germany,10145,True
+13,56,340 Main St,Barcelona,Spain,8053,True
+14,48,398 Main St,Bengaluru,India,560053,True
+15,89,346 Market Rd,Stockholm,Sweden,11161,True
+16,128,758 Central Sq,Sydney,Australia,2009,True
+17,0,373 Central Sq,Paris,France,75063,False
+18,120,598 River St,Barcelona,Spain,8077,True
+19,135,937 Central Sq,Bengaluru,India,560055,True
+20,130,584 River St,Rome,Italy,128,True
+21,0,109 River St,London,UK,10081,False
+22,90,962 Station Ave,New York,USA,10052,True
+23,130,304 Market Rd,Dubai,UAE,54344,True
+24,23,467 Market Rd,Sao Paulo,Brazil,1049,True
+25,0,670 Central Sq,Rome,Italy,151,False
+26,0,392 Main St,San Francisco,USA,94162,False
+27,22,302 Station Ave,Paris,France,75036,True
+28,2,839 Harbour Rd,Berlin,Germany,10180,True
+29,67,42 Station Ave,Lisbon,Portugal,1165,True
+30,27,898 Main St,Sao Paulo,Brazil,1000,True
+31,16,689 Central Sq,Lisbon,Portugal,1197,True
+32,138,145 Main St,Berlin,Germany,10175,True
+33,0,514 Station Ave,Lisbon,Portugal,1114,False
+34,42,144 Market Rd,Berlin,Germany,10133,True
+35,0,180 River St,Stockholm,Sweden,11139,False
+36,0,285 Harbour Rd,Cape Town,South Africa,8042,False
+37,92,621 River St,Toronto,Canada,12421,True
+38,0,280 Main St,Cape Town,South Africa,8005,False
+39,30,234 Central Sq,Stockholm,Sweden,11133,True
+40,89,684 Main St,Berlin,Germany,10214,True
+41,0,991 Harbour Rd,New York,USA,10019,False
+42,136,607 Market Rd,Sydney,Australia,2000,True
+43,93,980 Harbour Rd,Lisbon,Portugal,1171,True
+44,119,537 Market Rd,London,UK,10004,True
+45,5,872 Main St,Toronto,Canada,12348,True
+46,0,295 Station Ave,Cape Town,South Africa,8043,False
+47,86,893 Market Rd,Amsterdam,Netherlands,1097,True
+48,25,953 Station Ave,Mexico City,Mexico,6033,True
+49,105,820 Harbour Rd,Cape Town,South Africa,8037,True
+50,45,88 Station Ave,Toronto,Canada,12410,True
+51,58,24 Harbour Rd,Stockholm,Sweden,11148,True
+52,144,658 Station Ave,San Francisco,USA,94105,True
+53,150,792 Main St,Amsterdam,Netherlands,1085,True
+54,0,844 Station Ave,Toronto,Canada,12424,False
+55,62,842 Station Ave,Sao Paulo,Brazil,1051,True
+56,82,834 Central Sq,Bengaluru,India,560071,True
+57,127,804 Central Sq,New York,USA,10076,True
+58,6,558 Central Sq,Oslo,Norway,174,True
+59,1,855 Harbour Rd,Oslo,Norway,228,True
+60,13,707 Central Sq,Lisbon,Portugal,1145,True
+61,140,440 Main St,Toronto,Canada,12393,True
+62,100,340 Harbour Rd,Barcelona,Spain,8059,True
+63,0,775 Central Sq,Amsterdam,Netherlands,1047,False
+64,22,409 Central Sq,Sao Paulo,Brazil,1018,True
+65,58,429 Station Ave,Sao Paulo,Brazil,1071,True
+66,142,60 Market Rd,Barcelona,Spain,8046,True
+67,132,288 Market Rd,Amsterdam,Netherlands,1061,True
+68,42,656 River St,Rome,Italy,150,True
+69,118,793 Harbour Rd,Cape Town,South Africa,8024,True
+70,3,545 Central Sq,New York,USA,10087,True
+71,0,145 Central Sq,Sydney,Australia,2022,False
+72,2,786 Main St,Dubai,UAE,54356,True
+73,33,316 Main St,Barcelona,Spain,8093,True
+74,102,615 Main St,New York,USA,10042,True
+75,118,289 River St,Stockholm,Sweden,11123,True
+76,0,511 River St,Rome,Italy,148,False
+77,0,169 Central Sq,Paris,France,75058,False
+78,0,782 Market Rd,London,UK,10029,False
+79,87,692 River St,Toronto,Canada,12382,True
+80,0,228 Main St,San Francisco,USA,94143,False
+81,36,538 Harbour Rd,Stockholm,Sweden,11148,True
+82,36,620 Harbour Rd,London,UK,10051,True
+83,24,454 Market Rd,Sydney,Australia,2012,True
+84,41,615 Market Rd,Singapore,Singapore,18977,True
+85,105,476 River St,Paris,France,75099,True
+86,92,701 Market Rd,Sydney,Australia,2075,True
+87,98,619 Market Rd,Sydney,Australia,2060,True
+88,33,840 Central Sq,Paris,France,75097,True
+89,32,860 Market Rd,London,UK,10076,True
+90,78,545 Central Sq,Sydney,Australia,2000,True
+91,0,429 Main St,Sydney,Australia,2085,False
+92,0,591 Market Rd,Oslo,Norway,233,False
+93,0,634 Market Rd,Amsterdam,Netherlands,1062,False
+94,16,3 Main St,Bengaluru,India,560083,True
+95,0,596 Station Ave,Paris,France,75044,False
+96,0,150 Market Rd,Lisbon,Portugal,1143,False
+97,72,717 Harbour Rd,Rome,Italy,108,True
+98,91,994 River St,Mexico City,Mexico,6039,True
+99,149,637 Market Rd,Paris,France,75030,True
+100,89,745 Market Rd,Paris,France,75018,True
+101,0,395 Station Ave,Amsterdam,Netherlands,1080,False
+102,137,787 Main St,Sao Paulo,Brazil,1036,True
+103,113,752 Central Sq,New York,USA,10032,True
+104,0,758 Main St,Sao Paulo,Brazil,1078,False
+105,91,201 Station Ave,Cape Town,South Africa,8079,True
+106,116,998 Harbour Rd,Berlin,Germany,10169,True
+107,88,60 Central Sq,Lisbon,Portugal,1122,True
+108,108,69 Market Rd,Singapore,Singapore,18964,True
+109,0,89 Station Ave,Oslo,Norway,233,False
+110,15,417 Station Ave,New York,USA,10010,True
+111,0,136 Market Rd,Bengaluru,India,560009,False
+112,141,697 Harbour Rd,Berlin,Germany,10118,True
+113,123,648 Harbour Rd,Rome,Italy,126,True
+114,0,155 Market Rd,New York,USA,10088,False
+115,0,365 River St,Singapore,Singapore,18980,False
+116,97,839 Station Ave,Barcelona,Spain,8067,True
+117,95,425 Market Rd,Cape Town,South Africa,8064,True
+118,0,867 Market Rd,Barcelona,Spain,8078,False
+119,0,42 Main St,Cape Town,South Africa,8096,False
+120,87,792 Market Rd,Amsterdam,Netherlands,1072,True
+121,39,895 Market Rd,Stockholm,Sweden,11209,True
+122,0,266 Harbour Rd,Barcelona,Spain,8045,False
+123,129,872 Harbour Rd,Bengaluru,India,560049,True
+124,0,995 Harbour Rd,Bengaluru,India,560097,False
+125,27,503 Station Ave,Stockholm,Sweden,11190,True
+126,128,423 Central Sq,Dubai,UAE,54393,True
+127,88,918 Market Rd,Barcelona,Spain,8068,True
+128,0,101 Central Sq,Toronto,Canada,12430,False
+129,91,168 Station Ave,Paris,France,75055,True
+130,111,456 Market Rd,Rome,Italy,147,True
+131,125,188 Central Sq,Barcelona,Spain,8041,True
+132,0,828 Market Rd,San Francisco,USA,94164,False
+133,81,953 Harbour Rd,San Francisco,USA,94180,True
+134,67,542 Harbour Rd,Singapore,Singapore,19026,True
+135,41,169 Central Sq,Cape Town,South Africa,8074,True
+136,31,23 Central Sq,Cape Town,South Africa,8053,True
+137,106,593 Market Rd,Toronto,Canada,12417,True
+138,137,952 Central Sq,Lisbon,Portugal,1114,True
+139,14,888 Harbour Rd,Toronto,Canada,12443,True
+140,107,729 Harbour Rd,Toronto,Canada,12367,True
+141,82,720 Main St,Bengaluru,India,560079,True
+142,56,264 Station Ave,Sao Paulo,Brazil,1034,True
+143,0,590 Main St,Toronto,Canada,12383,False
+144,96,923 Main St,Lisbon,Portugal,1123,True
+145,75,915 Harbour Rd,Toronto,Canada,12404,True
+146,2,294 Central Sq,Stockholm,Sweden,11183,True
+147,36,383 Main St,Oslo,Norway,217,True
+148,14,470 Main St,Cape Town,South Africa,8027,True
+149,136,138 Main St,Amsterdam,Netherlands,1037,True
+150,37,793 Market Rd,Sao Paulo,Brazil,1024,True
+151,40,711 Main St,Sao Paulo,Brazil,1072,True
+152,102,500 Harbour Rd,Tokyo,Japan,1600120,True
+153,0,202 Harbour Rd,Sao Paulo,Brazil,1080,False
+154,134,437 Market Rd,Amsterdam,Netherlands,1000,True
+155,0,142 Market Rd,Berlin,Germany,10118,False
+156,133,300 River St,London,UK,10035,True
+157,65,792 River St,Toronto,Canada,12371,True
+158,55,434 Harbour Rd,Dubai,UAE,54407,True
+159,131,171 Station Ave,Oslo,Norway,220,True
+160,22,715 Market Rd,Bengaluru,India,560049,True
+161,65,622 Central Sq,Paris,France,75056,True
+162,0,576 Central Sq,Bengaluru,India,560054,False
+163,14,117 Market Rd,Tokyo,Japan,1600040,True
+164,24,930 River St,Tokyo,Japan,1600049,True
+165,0,669 Main St,San Francisco,USA,94111,False
+166,75,401 Main St,Berlin,Germany,10175,True
+167,136,733 Station Ave,San Francisco,USA,94192,True
+168,13,222 River St,London,UK,10094,True
+169,10,293 Central Sq,Mexico City,Mexico,6081,True
+170,0,63 Central Sq,Barcelona,Spain,8031,False
+171,99,916 River St,Barcelona,Spain,8044,True
+172,85,196 River St,Barcelona,Spain,8082,True
+173,56,489 Central Sq,Berlin,Germany,10173,True
+174,13,202 Main St,New York,USA,10080,True
+175,0,413 River St,Paris,France,75041,False
+176,29,499 Harbour Rd,Rome,Italy,170,True
+177,0,986 River St,Tokyo,Japan,1600026,False
+178,27,415 River St,Toronto,Canada,12412,True
+179,53,496 Station Ave,Stockholm,Sweden,11133,True
+180,0,375 River St,Lisbon,Portugal,1149,False
+181,133,433 Main St,Lisbon,Portugal,1110,True
+182,99,450 Central Sq,Oslo,Norway,225,True
+183,0,204 Market Rd,Mexico City,Mexico,6052,False
+184,11,737 Central Sq,Barcelona,Spain,8004,True
+185,138,213 Central Sq,New York,USA,10025,True
+186,139,69 River St,Tokyo,Japan,1600066,True
+187,39,559 Central Sq,Lisbon,Portugal,1131,True
+188,64,593 Station Ave,San Francisco,USA,94177,True
+189,0,164 Harbour Rd,Mexico City,Mexico,6051,False
+190,0,928 Station Ave,Toronto,Canada,12406,False
+191,18,698 Central Sq,New York,USA,10070,True
+192,110,562 Harbour Rd,Tokyo,Japan,1600099,True
+193,0,896 Market Rd,Dubai,UAE,54321,False
+194,88,210 Market Rd,Toronto,Canada,12404,True
+195,99,441 River St,Sydney,Australia,2071,True
+196,18,654 Central Sq,Amsterdam,Netherlands,1094,True
+197,0,129 River St,London,UK,10048,False
+198,62,5 River St,Cape Town,South Africa,8060,True
+199,2,549 River St,Dubai,UAE,54381,True
+200,3,655 Harbour Rd,Toronto,Canada,12442,True
