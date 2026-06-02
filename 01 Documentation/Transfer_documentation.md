@@ -187,7 +187,6 @@ Validation includes:
 * Preventing duplicate inserts using `NOT EXISTS` conditions.
 * Verifying foreign key relationships between fact and dimension tables.
 
-Additional validation scripts will be documented separately when completed.
 
 ---
 
