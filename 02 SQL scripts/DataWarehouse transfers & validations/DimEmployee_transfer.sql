@@ -21,3 +21,6 @@ WHERE employee_id NOT IN (
     SELECT employee_id
     FROM RentalDataWarehouse.dbo.DimEmployee
 );
+
+USE RentalDataWarehouse
+SELECT * FROM DimEmployee
