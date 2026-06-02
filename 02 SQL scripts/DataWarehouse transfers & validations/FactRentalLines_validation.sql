@@ -27,6 +27,7 @@ GO
 
 -- Remove eroneous transactions
 BEGIN TRAN;
+DELETE rt
 FROM DimRental_transaction rt
 LEFT JOIN FactRentalLine f
     ON rt.transaction_id = f.transaction_id
