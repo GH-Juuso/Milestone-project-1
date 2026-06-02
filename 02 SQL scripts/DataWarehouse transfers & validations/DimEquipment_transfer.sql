@@ -30,7 +30,13 @@ SELECT
     type,
     rental_price,
     procurement_cost
-FROM RentalDatabase.dbo.Equipment;
+FROM RentalDatabase.dbo.Equipment
+
+-- Blocking duplicates from being transferred
+WHERE equipment_id NOT IN (
+    SELECT equipment_id
+    FROM RentalDataWarehouse.dbo.DimEquipment
+);
 GO
 
 USE RentalDataWarehouse;
