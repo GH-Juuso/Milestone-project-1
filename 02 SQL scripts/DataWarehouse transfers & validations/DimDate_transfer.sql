@@ -24,3 +24,6 @@ WHERE startdate NOT IN (
     SELECT date
     FROM RentalDataWarehouse.dbo.DimDate
 );
+
+USE RentalDataWarehouse
+SELECT * FROM DimDate;
