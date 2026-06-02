@@ -92,7 +92,7 @@ ADD CONSTRAINT FK_customer_id FOREIGN KEY(customer_id)
 REFERENCES Customer(customer_id)
 
 ALTER TABLE Rental_transaction
-ADD CONSTRAINT FK_employee_id FOREIGN KEY(employee_id)
+ADD CONSTRAINT FK_transaction_employee_id FOREIGN KEY(employee_id)
 REFERENCES Employee(employee_id)
 
 --Inventory table connections
