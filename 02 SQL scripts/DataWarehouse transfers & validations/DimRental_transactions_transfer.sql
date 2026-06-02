@@ -15,4 +15,4 @@ INSERT INTO DimRental_transaction
 SELECT
     rt.transaction_id,
     rt.rental_amount
-FROM RentalDatabase.dbo.Rental_transaction;
+FROM RentalDatabase.dbo.Rental_transaction AS rt;
