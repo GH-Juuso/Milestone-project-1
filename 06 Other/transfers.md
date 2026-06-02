@@ -50,3 +50,4 @@
 	* Match customer_id with Operational DB Customer(transaction_id)
 	* Match equipment_id with Operational DB Equipment(equipment_id)
 	* Match start_date, end_date keys in DimDate (date_key)
+	* Verify total lines per transaction_id for Operational DB and Data Warehouse
