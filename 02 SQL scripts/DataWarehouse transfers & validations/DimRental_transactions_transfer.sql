@@ -15,4 +15,9 @@ INSERT INTO DimRental_transaction
 SELECT
     rt.transaction_id,
     rt.rental_amount
-FROM RentalDatabase.dbo.Rental_transaction AS rt;
+FROM RentalDatabase.dbo.Rental_transaction AS rt
+    WHERE NOT EXISTS (
+    SELECT 1
+    FROM DimRental_transaction AS drt
+    WHERE drt.transaction_id = rt.transaction_id
+);
