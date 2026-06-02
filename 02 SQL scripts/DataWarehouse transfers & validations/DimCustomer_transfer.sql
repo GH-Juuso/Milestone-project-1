@@ -22,4 +22,7 @@ WHERE customer_id NOT IN (
     FROM RentalDataWarehouse.dbo.DimCustomer
 );
 
+USE RentalDataWarehouse
+SELECT * FROM DimCustomer
+
 -- With every column in the table defined as NOT NULL no further validation should be necessary.
