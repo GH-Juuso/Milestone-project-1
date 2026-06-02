@@ -25,10 +25,9 @@ SELECT
     country,
     postal_code,
     staffed
-FROM RentalDatabase.dbo.Rental_station;
-GO
-
-
-
-USE RentalDataWarehouse;
-SELECT * FROM DimRental_station;
+FROM RentalDatabase.dbo.Rental_station AS rs
+    WHERE NOT EXISTS (
+    SELECT 1
+    FROM DimRental_station AS drs
+    WHERE drs.station_id = rs.station_id
+);
