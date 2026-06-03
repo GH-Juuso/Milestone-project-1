@@ -199,17 +199,18 @@ GO
 WITH FactTotals AS (
     SELECT
         transaction_id,
-        SUM(COALESCE(line_price,0) + COALESCE(vat,0)) AS fact_total_amount
+        SUM(line_price + vat) AS fact_total_amount
     FROM FactRentalLine
     GROUP BY transaction_id
 )
 SELECT
     rt.transaction_id,
-    rt.rental_amount,
-    ft.fact_total_amount,
+    rt.rental_amount as stored_rental_amount,
+    ft.fact_total_amount as calculated_rental_amount,
     ft.fact_total_amount - rt.rental_amount AS difference
+
 FROM DimRental_transaction rt
-LEFT JOIN FactTotals ft
-    ON rt.transaction_id = ft.transaction_id
-WHERE ISNULL(ft.fact_total_amount, 0) <> ISNULL(rt.rental_amount, 0);
+LEFT JOIN FactTotals ft ON rt.transaction_id = ft.transaction_id
+
+WHERE ft.fact_total_amount <> rt.rental_amount;
 GO
