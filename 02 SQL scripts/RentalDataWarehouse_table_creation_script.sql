@@ -54,8 +54,10 @@ CREATE TABLE DimRental_station (
 CREATE TABLE DimDate (
     date_key int PRIMARY KEY,	
     dayname varchar(50) NOT NULL,
+	day_number int NOT NULL,
 	week int NOT NULL,
 	monthname varchar(50) NOT NULL,
+	month_number int NOT NULL,
 	year int NOT NULL,
 	date date NOT NULL
 	)
@@ -74,8 +76,10 @@ CREATE TABLE FactRentalLine (
 	line_price decimal (10,2) NOT NULL,	
     vat decimal (10,2) NOT NULL,
 	start_date int NOT NULL,
-	end_date int NOT NULL
-	)
+	end_date int NOT NULL,
+	start_time datetime NULL,
+	end_time datetime NULL
+)
 
 ----------------------------------------------------------------------------------------------
 
