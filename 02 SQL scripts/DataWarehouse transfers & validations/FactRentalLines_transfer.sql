@@ -27,7 +27,9 @@ INSERT INTO FactRentalLine (
     [line_price],
     [vat],
     [start_date],
-    [end_date]
+    [end_date],
+    [start_time],
+    [end_time]
 )
 SELECT
     rl.rentalline_id,
@@ -42,7 +44,9 @@ SELECT
     rl.line_price,
     rl.vat,
     CAST(CONVERT(char(8), rt.startdate, 112) AS int),
-    CAST(CONVERT(char(8), rt.enddate, 112) AS int)
+    CAST(CONVERT(char(8), rt.enddate, 112) AS int),
+    rt.startdate,
+    rt.enddate
 
 FROM RentalDatabase.dbo.RentalLine rl
 INNER JOIN RentalDatabase.dbo.Rental_transaction rt
@@ -61,8 +65,6 @@ WHERE rentalline_id NOT IN (
 );
 GO
 
-
-GO
 USE RentalDataWarehouse;
 SELECT * FROM FactRentalLine;
 
